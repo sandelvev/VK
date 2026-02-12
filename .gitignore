@@ -1,0 +1,122 @@
+# ================== Python ==================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================== Виртуальные окружения ==================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================== IDE / Редакторы ==================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Другие редакторы
+*.swp
+*.swo
+*~
+/.vs/
+*.sublime-project
+*.sublime-workspace
+
+# ================== ОС и системные файлы ==================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.AppleDB
+.AppleDesktop
+
+# Linux
+*~
+
+# ================== Логи и данные ==================
+*.log
+*.txt
+logs/
+logs/*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ================== Переменные окружения ==================
+.env
+.env.local
+.env.*.local
+.env.*.sample
+.env.*.example
+
+# ================== Сборки и дистрибутивы ==================
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.whl
+
+# ================== Тесты ==================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+.cache/
+
+# ================== Jupyter ==================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================== Резервные копии ==================
+*.bak
+*.tmp
+*~
+
+# ================== Локальные конфиги ==================
+.local/
+config.json
+secrets.json
+credentials.json
+
+# ================== Tkinter-специфичное ==================
+# Игнорируем только СГЕНЕРИРОВАННЫЕ изображения/кэш,
+# но НЕ исходные ресурсы интерфейса (logo.png, bell.png и т.д.)
+screenshots/
+cache/
+temp_images/
+
+chore: add .gitignore
